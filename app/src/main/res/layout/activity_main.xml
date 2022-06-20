@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+
+    <Button
+        style="@style/btn_menu"
+        android:id="@+id/btn_adds"
+        android:text="@string/btn_addS"
+        android:onClick="get"/>
+
+    <Button
+        style="@style/btn_menu"
+        android:id="@+id/btn_edits"
+        android:text="@string/btn_updateS"
+        android:onClick="get"/>
+
+    <Button
+        style="@style/btn_menu"
+        android:id="@+id/btn_listes"
+        android:text="@string/btn_listeS"
+        android:onClick="get"/>
+
+</LinearLayout>

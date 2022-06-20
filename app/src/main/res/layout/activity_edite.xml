@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edite_Activity"
+    android:gravity="center_vertical">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_societe"
+        android:layout_alignParentTop="true"/>
+
+    <EditText
+       style="@style/txt_style"
+        android:id="@+id/txt_edit_nom"
+        android:layout_below="@+id/cb_societe"
+        android:hint="le nom de la societer"/>
+
+    <EditText
+        android:id="@+id/txt_edit_secteur"
+        style="@style/txt_style"
+        android:layout_below="@+id/txt_edit_nom"
+        android:hint="le nom de la societer" />
+
+    <EditText
+        android:id="@+id/txt_edit_nb"
+        style="@style/txt_style"
+        android:layout_below="@+id/txt_edit_secteur"
+        android:hint="le nom de la societer" />
+
+    <Button style="@style/btn_tous_activity"
+        android:id="@+id/btn_Modiffier"
+        android:layout_below="@+id/txt_edit_nb"
+        android:text="Modiffier"
+        android:onClick="Modiffier"/>
+    <Button style="@style/btn_tous_activity"
+        android:id="@+id/btn_Supprimer"
+        android:layout_toRightOf="@+id/btn_Modiffier"
+        android:layout_alignBaseline="@+id/btn_Modiffier"
+        android:text="Supprimer"
+        android:onClick="Supprimer"/>
+
+</RelativeLayout>

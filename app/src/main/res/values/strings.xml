@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">moraja3A_emf_passage</string>
+
+
+    <string name="btn_addS">Ajouter une Societe</string>
+    <string name="btn_updateS">Editer une Societe</string>
+    <string name="btn_listeS">Liste de tous les Societe</string>
+</resources>

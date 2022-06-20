@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/btn_home" android:title="homme" ></item>
+    <item android:id="@+id/btn_aj" android:title="Acuiel" ></item>
+
+    <item android:id="@+id/hh" android:title="Annuler" app:showAsAction="ifRoom" android:icon="@drawable/im1"></item>
+
+
+</menu>

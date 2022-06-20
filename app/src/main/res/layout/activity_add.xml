@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_activity"
+    android:orientation="vertical">
+
+    <EditText
+        style="@style/txt_style"
+        android:hint="Tapez le nom de la societe"
+        android:layout_alignParentTop="true"
+        android:id="@+id/txt_nom"/>
+    <EditText
+        style="@style/txt_style"
+        android:hint="Tapez le secteur d'activite"
+        android:layout_below="@id/txt_nom"
+        android:id="@+id/txt_secteur"/>
+    <EditText
+        style="@style/txt_style"
+        android:hint="Tapez le nombre d'employe"
+        android:layout_below="@id/txt_secteur"
+        android:id="@+id/txt_nbEmploye"/>
+    <Button
+        style="@style/btn_tous_activity"
+        android:text="Enregister"
+        android:id="@+id/btn_addNewS"
+        android:layout_below="@id/txt_nbEmploye"
+        android:onClick="Enregister"/>
+
+    <Button
+        android:id="@+id/btn_cancelNewS"
+        style="@style/btn_tous_activity"
+        android:layout_alignBaseline="@id/btn_addNewS"
+        android:layout_toRightOf="@id/btn_addNewS"
+        android:text="Annuler"
+        android:onClick="annuler"/>
+
+</RelativeLayout>

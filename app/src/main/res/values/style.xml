@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_menu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">7sp</item>
+        <item name="android:background">@drawable/btn_menu</item>
+        <item name="android:textColor">#fff</item>
+
+    </style>
+
+    <style name="btn_tous_activity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="txt_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+</resources>
